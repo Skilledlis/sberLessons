@@ -4,6 +4,16 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
+        int[] arr = new int[]{2,5,1,66,12,86,3,7,23,5};
+
+        bubbleSort(arr);
+        for (int num : arr) {
+            System.out.print(num+" ");
+        }
+
+        System.out.println();
+
+        System.out.println(binarySearch(arr,12));
 
     }
 

@@ -21,10 +21,12 @@ public class Temperature {
     }
 
     public double getFahrenheit() {
-        return (celsius * 9/5) + 32;
+        fahrenheit = (celsius * 9/5) + 32;
+        return fahrenheit;
     }
 
     public double getKelvin() {
-        return celsius + 273.15;
+        kelvin = celsius + 273.15;
+        return kelvin;
     }
 }
